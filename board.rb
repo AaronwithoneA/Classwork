@@ -80,6 +80,5 @@ class Board
     (0..8).to_a.map { |i| square(i) }
   end
 
-  private
   attr_reader :grid
 end
